@@ -20,14 +20,14 @@
                                 <rect key="frame" x="10" y="172" width="373" height="612"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Height, Weight and Waist Measurements" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpJ-bb-W1b" userLabel="Enter Height, Weight and Waist Measurements">
-                                        <rect key="frame" x="0.0" y="0.0" width="373" height="22.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="19.333333333333332"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oxb-P2-RCb">
-                                        <rect key="frame" x="0.0" y="22.333333333333343" width="373" height="51"/>
+                                        <rect key="frame" x="0.0" y="19.333333333333343" width="373" height="51"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hxr-VD-FL6"/>
@@ -39,14 +39,14 @@
                                         <color key="selectedSegmentTintColor" systemColor="systemYellowColor"/>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPz-D1-9qB">
-                                        <rect key="frame" x="0.0" y="72.333333333333343" width="373" height="27.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="69.333333333333343" width="373" height="24"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-uh-BbG" userLabel="heightHorizontalStackView">
-                                        <rect key="frame" x="0.0" y="100" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="93.333333333333314" width="373" height="50"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kvu-Ym-4xw" userLabel="heightPrimaryTextField">
                                                 <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="50"/>
@@ -67,14 +67,14 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxo-RL-rVR" userLabel="Weight Title Label">
-                                        <rect key="frame" x="0.0" y="150" width="373" height="28"/>
+                                        <rect key="frame" x="0.0" y="143.33333333333331" width="373" height="24"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="A6P-zU-wyC" userLabel="weightHorizontalStackView">
-                                        <rect key="frame" x="0.0" y="178" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="167.33333333333331" width="373" height="50"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w4k-iy-Ret" userLabel="weightPrimaryTextField">
                                                 <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="50"/>
@@ -96,14 +96,14 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waist (at Navel)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xz0-ux-ThA" userLabel="Waist">
-                                        <rect key="frame" x="0.0" y="228" width="373" height="27.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="217.33333333333331" width="373" height="24.333333333333343"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9oc-Vl-AVk" userLabel="WaistHorizontalStackView">
-                                        <rect key="frame" x="0.0" y="255.66666666666669" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="241.66666666666669" width="373" height="50"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xy5-Hc-xvW" userLabel="waistPrimaryTextField">
                                                 <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="50"/>
@@ -124,7 +124,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfW-Vx-9pu">
-                                        <rect key="frame" x="0.0" y="305.66666666666669" width="373" height="166.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="291.66666666666669" width="373" height="180.33333333333331"/>
                                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                                         <string key="text">By clicking the button below you are confirming your understanding that this app is  not a medical app. 
 
@@ -257,7 +257,7 @@ The calculations are illustrative in nature only.
 Consult your physician with any questions you may have.
 
 By clicking the AGREE button below, you acknowledge that you have read the Disclaimer above and that you agree.</string>
-                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
