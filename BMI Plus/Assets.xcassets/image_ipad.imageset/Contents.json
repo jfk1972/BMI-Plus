@@ -1,16 +1,16 @@
 {
   "images" : [
     {
+      "filename" : "image_ipad.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icon-ios-40x40@2x.png",
+      "filename" : "image_ipad@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icon-ios-40x40@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
