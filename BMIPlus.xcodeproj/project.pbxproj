@@ -292,6 +292,7 @@
 				DEVELOPMENT_TEAM = 9U5DM9D485;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI Plus/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI + Plus";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -325,6 +326,7 @@
 				DEVELOPMENT_TEAM = 9U5DM9D485;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI Plus/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI + Plus";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
